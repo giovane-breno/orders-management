@@ -1,14 +1,9 @@
 {
-    "_readme": [
-        "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
-        "This file is @generated automatically"
-    ],
-    "content-hash": "86e932912f359f57cb783a6303df83c6",
     "packages": [
         {
             "name": "components/font-awesome",
             "version": "6.2.0",
+            "version_normalized": "6.2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/components/font-awesome.git",
@@ -20,6 +15,7 @@
                 "reference": "75823cacdc5a2b34befa423b390432f5bef373b5",
                 "shasum": ""
             },
+            "time": "2022-09-08T05:14:26+00:00",
             "type": "component",
             "extra": {
                 "component": {
@@ -32,6 +28,7 @@
                     ]
                 }
             },
+            "installation-source": "dist",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "CC-BY-4.0",
@@ -43,11 +40,12 @@
                 "issues": "https://github.com/components/font-awesome/issues",
                 "source": "https://github.com/components/font-awesome/tree/6.2.0"
             },
-            "time": "2022-09-08T05:14:26+00:00"
+            "install-path": "../components/font-awesome"
         },
         {
             "name": "twbs/bootstrap",
             "version": "v5.2.3",
+            "version_normalized": "5.2.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twbs/bootstrap.git",
@@ -62,7 +60,9 @@
             "replace": {
                 "twitter/bootstrap": "self.version"
             },
+            "time": "2022-11-21T18:19:01+00:00",
             "type": "library",
+            "installation-source": "dist",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
@@ -93,16 +93,9 @@
                 "issues": "https://github.com/twbs/bootstrap/issues",
                 "source": "https://github.com/twbs/bootstrap/tree/v5.2.3"
             },
-            "time": "2022-11-21T18:19:01+00:00"
+            "install-path": "../twbs/bootstrap"
         }
     ],
-    "packages-dev": [],
-    "aliases": [],
-    "minimum-stability": "stable",
-    "stability-flags": [],
-    "prefer-stable": false,
-    "prefer-lowest": false,
-    "platform": [],
-    "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "dev": true,
+    "dev-package-names": []
 }

@@ -1,8 +1,9 @@
 {
     "autoload": {
-        "classmap": ["App/Structures"]
+        "classmap": ["src/", "src/Pages"]
     },
     "require": {
-        "twbs/bootstrap": "^5.2"
+        "twbs/bootstrap": "^5.2",
+        "components/font-awesome": "^6.2"
     }
 }
